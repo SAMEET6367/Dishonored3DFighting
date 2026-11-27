@@ -38,16 +38,17 @@ Vite outputs the production site into the `dist/` folder.
 
 ## Activate the Windows download
 
-**No Windows game executable/ZIP is bundled.** Until configured, the download button shows a release-info modal.
+The Windows build is `public/downloads/Dishonored Battle.rar`. The download buttons serve that file.
 
 ### Option A: host installer in this website
 
 1. Create `public/downloads/`.
-2. Copy your build ZIP there, e.g. `Dishonored-Windows.zip`.
+2. Copy your build there, e.g. `Dishonored Battle.rar`.
 3. Open `src/siteConfig.js` and set:
 
 ```js
-downloadUrl: '/downloads/Dishonored-Windows.zip',
+downloadUrl: '/downloads/Dishonored%20Battle.rar',
+downloadFilename: 'Dishonored Battle.rar',
 ```
 
 ### Option B: external URL

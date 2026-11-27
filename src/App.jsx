@@ -31,8 +31,8 @@ const gallery = [
 
 const questions = [
   { q: 'What kind of game is Dishonored?', a: 'Dishonored is a 3D robot fighting game. It features a campaign, offline and online 1v1 Arena modes, and dedicated Boss Fights with four bosses.' },
-  { q: 'Which platform is the game for?', a: 'Dishonored is a Windows PC build. Use the download button to save the game as a ZIP file.' },
-  { q: 'Can I download the game right now?', a: 'Yes. Download for Windows saves the Dishonored Battle ZIP to your computer.' },
+  { q: 'Which platform is the game for?', a: 'Dishonored is a Windows PC build. Use the download button to save the game as a RAR file.' },
+  { q: 'Can I download the game right now?', a: 'Yes. Download for Windows saves the Dishonored Battle RAR to your computer.' },
   { q: 'What modes does the game include?', a: 'Singleplayer campaign levels, 1v1 Arena (VS Player online or VS Bot offline with difficulty select), and Boss Fights against Railway Protector, Excavator, Front Guard, and Brain Bot.' },
   { q: 'How many fighters can I play?', a: 'There are nine selectable fighters: Pacer, Buster, Gastino, Xebec, Hendrix, Bigbata, Macky, Rodeo, and Glamour. This site spotlights Pacer, Buster, Gastino, and Xebec.' },
 ];
